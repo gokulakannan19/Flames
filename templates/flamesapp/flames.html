@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="container">
+        <div class="description">
+            Do you want to know your relation with your loved ones?
+        </div>
+
+        <div class="forms">
+            <form action="{% url 'result' %}" method="post">
+                {% csrf_token %}
+
+                <div class="row">
+                    <div class="col">
+                        <label>Your Name</label>
+                        <input type="text" class="form-control" placeholder="" name="name1" id="name1" required>
+                    </div>
+                    <div class="col">
+                        <label>Partner name</label>
+                        <input type="text" class="form-control" placeholder="" name="name2" id="name2"required>
+                    </div>
+                </div>
+                <div class="button">
+                    <a href="{% url 'result' %}"><button type="submit" class="btn btn-danger">Know the relation</button></a>
+                </div>
+
+            </form>
+            {% for message in messages %}
+            <div class="container-message">
+                <h4>{{ message }}</h4>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

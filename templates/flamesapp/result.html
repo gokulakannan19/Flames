@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-result">
+<div class="card" style="width: 18rem;">
+  <img src="{{ images }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ relation_result }}</h5>
+    <p class="card-text">{{ quotes }}</p>
+    <a href="{% url 'flames_home' %}" class="btn btn-primary">Home</a>
+  </div>
+</div>
+  </div>
+{% endblock %}

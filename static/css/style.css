@@ -1,0 +1,121 @@
+body {
+    background-color: lightcyan;
+    height: 100vh;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: mintcream;
+    font-size: 30px;
+    font-family: cursive;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
+
+.nav{
+    background-color: deeppink;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+.description{
+    text-align: center;
+    color: deeppink;
+    font-size: x-large;
+    font-family: cursive;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.forms{
+    padding: 8px 8px 8px 8px;
+    /* margin: 30px auto auto auto; */
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.col{
+    text-align: center;
+}
+
+label{
+    color: initial;
+    font-size: larger;
+    font-family: initial;
+}
+
+#name1{
+    background-color: lavenderblush;
+    padding: 8px 8px 8x 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    border-color: coral;
+    border-width: thin;
+    border-radius: 8px;
+}
+
+#name2{
+    background-color: lavenderblush;
+    padding: 8px 8px 8x 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    border-color: coral;
+    border-width: thin;
+    border-radius: 8px;
+}
+
+.button{
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    margin-top: 20px;
+    /* align-content: center; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.container-result {
+    text-align: -webkit-center;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.container-message {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+
+    border-width: initial;
+
+    color: red;
+    text-align: center;
+    font-style: italic;
+    margin-top: 15px;
+    border-radius: 20px;
+}
